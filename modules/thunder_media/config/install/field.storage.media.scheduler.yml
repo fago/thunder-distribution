@@ -3,17 +3,17 @@ status: true
 dependencies:
   module:
     - media_entity
-    - taxonomy
-id: taxonomy_term.field_header_media
-field_name: field_header_media
-entity_type: taxonomy_term
+    - scheduled_updates
+id: media.scheduler
+field_name: scheduler
+entity_type: media
 type: entity_reference
 settings:
-  target_type: media
+  target_type: scheduled_update
 module: core
 locked: false
-cardinality: 1
-translatable: true
+cardinality: -1
+translatable: false
 indexes: {  }
 persist_with_no_fields: false
 custom_storage: false

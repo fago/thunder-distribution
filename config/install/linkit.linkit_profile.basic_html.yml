@@ -3,6 +3,7 @@ status: true
 dependencies:
   module:
     - node
+    - linkit
 id: basic_html
 label: 'Basic HTML'
 description: ''

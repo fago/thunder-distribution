@@ -126,12 +126,9 @@ projects:
       revision: "a917c94"
       branch: "8.x-1.x"
 
-  scheduler:
+  scheduled_updates:
     type: "module"
-    download:
-      url: "http://git.drupal.org/project/scheduler.git"
-      revision: "333bec292b27243537f56a7418a97858ee3495a5"
-      branch: "8.x-1.x"
+    version: "1.0-alpha5"
 
   token:
     type: "module"
@@ -141,7 +138,7 @@ projects:
     type: "module"
     download:
       url: "http://git.drupal.org/sandbox/gos77/2677752.git"
-      revision: "2986767"
+      revision: "6838eda"
       branch: "8.x-1.x"
 
   infinite:

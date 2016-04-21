@@ -2,14 +2,13 @@ langcode: en
 status: true
 dependencies:
   module:
-    - metatag
-    - taxonomy
-id: taxonomy_term.field_meta_tags
-field_name: field_meta_tags
-entity_type: taxonomy_term
-type: metatag
+    - scheduled_updates
+id: scheduled_update.field_status_1
+field_name: field_status_1
+entity_type: scheduled_update
+type: boolean
 settings: {  }
-module: metatag
+module: core
 locked: false
 cardinality: 1
 translatable: true

@@ -15,4 +15,5 @@ dependencies:
   - media_entity_slideshow
   - responsive_image
   - pathauto
+  - scheduled_updates
 

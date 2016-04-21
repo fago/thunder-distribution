@@ -45,7 +45,7 @@ dependencies:
   - media_entity
   - media_entity_image
   - media_entity_slideshow
-  - scheduler
+  - scheduled_updates
   - pathauto
   - paragraphs
 # thunder

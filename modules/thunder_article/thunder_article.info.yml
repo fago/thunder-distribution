@@ -14,7 +14,7 @@ dependencies:
   - menu_ui
   - options
   - paragraphs
-  - scheduler
+  - scheduled_updates
 config_devel:
   - core.entity_view_display.node.article.presenter_full
   - core.entity_view_display.node.article.presenter_half

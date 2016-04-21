@@ -25,4 +25,21 @@ function thunder_article_form_node_article_form_alter(&$form, FormStateInterface
 function _thunder_article_form_alter_helper(&$form, FormStateInterface $form_state) {
   // Add CSS file for layout optimization.
   $form['#attached']['library'][] = 'thunder_article/article_form_styling';
+
+  // Create the group for the fields.
+  $form['node_scheduler'] = array(
+    '#type' => 'details',
+    '#title' => t('Scheduling options'),
+    '#open' => FALSE,
+    '#weight' => 35,
+    '#attributes' => array(
+      'class' => array('scheduler-form'),
+    ),
+    '#optional' => FALSE,
+  );
+  $form['node_scheduler']['#group'] = 'advanced';
+  // Attach the javascript for the vertical tabs.
+  $form['node_scheduler']['#attached']['library'][] = 'scheduler/vertical-tabs';
+  // Attach the fields to group.
+  $form['scheduler']['#group'] = 'node_scheduler';
 }
