@@ -60,9 +60,6 @@
       },
       "drupal/media_entity": {
         "Add field formatter schema": "https://www.drupal.org/files/issues/add_field_formatter-2812867-3.patch"
-      },
-      "drupal/slick": {
-        "Images not centered with bartik": "https://www.drupal.org/files/issues/slick-centered-images.patch"
       }
     }
   },
@@ -106,7 +103,7 @@
     "drupal/riddle_marketplace": "^1.0",
     "drupal/scheduler": "^1.0",
     "drupal/simple_sitemap": "^2.0",
-    "drupal/slick": "1.0-beta4",
+    "drupal/slick": "^1.0",
     "drupal/slick_media": "^1.0",
     "drupal/token": "^1.0",
     "drupal/video_embed_field": "^1.0",
