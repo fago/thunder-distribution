@@ -20,6 +20,8 @@ projects:
   blazy:
     type: "module"
     version: "1.0-beta4"
+    patch:
+      - "https://www.drupal.org/files/issues/support_picture_element-2752865-10-D8.patch"
 
   breakpoint_js_settings:
     type: "module"

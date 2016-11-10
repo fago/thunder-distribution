@@ -10,6 +10,7 @@ projects[better_normalizers][download][revision] = 1cd9b4b50e91f5e595eb86813611d
 projects[better_normalizers][download][branch] = 8.x-1.x
 projects[blazy][type] = module
 projects[blazy][version] = 1.0-beta4
+projects[blazy][patch][] = https://www.drupal.org/files/issues/support_picture_element-2752865-10-D8.patch
 projects[breakpoint_js_settings][type] = module
 projects[breakpoint_js_settings][version] = 1.0-rc1
 projects[config_update][type] = module
